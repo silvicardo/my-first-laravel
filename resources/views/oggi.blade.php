@@ -7,6 +7,8 @@
   <body>
     <h1>View oggi da rotta  /today</h1>
 
-    <h2>Data odierna {{ $dataDiOggi }}</h2>
+    <p>{{ $saluto }} {{ $utenti[0] }}</p>
+
+    <h2>Data odierna {{ $dataOggi }}</h2>
   </body>
 </html>

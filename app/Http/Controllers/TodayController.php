@@ -20,6 +20,10 @@ class TodayController extends Controller
     public function laDataDiOggi() {
        $dataDiOggi= date("Y-m-d H:i:s");
 
-       return view('oggi', compact('dataDiOggi'));
+      $dati = array('utenti' => ['Riccardo', 'Roberto'],
+                    'dataOggi' => $dataDiOggi,
+                    'saluto' => 'Che bella giornata');
+
+       return view('oggi', $dati);
     }
 }
