@@ -85,6 +85,8 @@
                 </div>
 
                 <div class="links">
+                  <!-- ottengo il link della rotta con il metodo route('nomeRotta') -->
+                    <a href="{{ route('rottaOggi') }}">Oggi</a>
                     <a href="https://laravel.com/docs">Documentation</a>
                     <a href="https://laracasts.com">Laracasts</a>
                     <a href="https://laravel-news.com">News</a>

@@ -16,11 +16,7 @@ Route::get('/', function () {
 });
 
 //rotta di test
-Route::get('/today', function () {
-
-  //Passaggio var con compact
-
-  $adesso = date("Y-m-d H:i:s");
-
-  return view('oggi', compact('adesso'));
-});
+//arg1: url della rotta
+//arg2: 'NomeController@funzioneDaRichiamareInQuelController'
+//->name: assegna un nome alla rotta da cui potrà essere puntata nelle views
+Route::get('/today', 'TodayController@laDataDiOggi')->name('rottaOggi');
