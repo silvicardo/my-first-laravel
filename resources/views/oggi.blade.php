@@ -7,6 +7,6 @@
   <body>
     <h1>View oggi da rotta  /today</h1>
 
-    <h2>Data odierna {{ $adesso }}</h2>
+    <h2>Data odierna {{ $dataDiOggi }}</h2>
   </body>
 </html>
