@@ -17,5 +17,10 @@ Route::get('/', function () {
 
 //rotta di test
 Route::get('/today', function () {
-  return view('oggi');
+
+  //Passaggio var con compact
+
+  $adesso = date("Y-m-d H:i:s");
+
+  return view('oggi', compact('adesso'));
 });

@@ -6,5 +6,7 @@
   </head>
   <body>
     <h1>View oggi da rotta  /today</h1>
+
+    <h2>Data odierna {{ $adesso }}</h2>
   </body>
 </html>
