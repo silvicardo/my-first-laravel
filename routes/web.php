@@ -14,3 +14,8 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+//rotta di test
+Route::get('/today', function () {
+  return view('oggi');
+});
